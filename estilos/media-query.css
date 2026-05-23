@@ -1,0 +1,43 @@
+@media (min-width: 768px) { 
+    body {
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }  
+    
+    #login {
+        width: 80vw;
+        height: 42vh;
+    }
+
+    #img {
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    form {
+        float: right;
+        width: 70%;
+    }
+}
+
+@media (min-width: 1440px) { 
+    #login {
+        width: 60vw;
+        height: 350px;
+    }
+
+    #img {
+        float: right;
+        width: 50%;
+    }
+
+    form {
+        width: 50%;
+        float: left;
+    }
+
+     p {
+        font-size: 1em;
+        margin: 20px 0px;
+    }
+}
